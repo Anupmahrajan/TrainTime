@@ -25,13 +25,14 @@
     //                 console.log("your week day is not available here");
     // }
 
-    for(let i = 10; i >= 1; i--) {
-        if (i === 5) {
-            break;
-        }
-        if (i === 9){
-            continue;
-        }
-        console.log ("ANUP IS GREAT: ",i);
+    // for(let i = 10; i >= 1; i--) {
+    //     if (i === 5) {
+    //         break;
+    //     }
+    //     if (i === 9){
+    //         continue;
+    //     }
+    //     console.log ("ANUP IS GREAT: ",i);
 
-    }
+    // }
+   
