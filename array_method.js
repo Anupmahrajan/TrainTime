@@ -39,8 +39,55 @@
 // delete sliceExample[0];
 // console.log ("deleted array:", sliceExample);
 
-let sliceExample = ["apple","banaan","aca","o","k"];
-sliceExample.forEach((value,index)=>{
-    console.log("index is:",index );
-    console.log("value is:",value);
-})
+// let sliceExample = ["apple","banaan","aca","o","k"];
+// sliceExample.forEach((value,index)=>{
+//     console.log("index is:",index );
+//     console.log("value is:",value);
+// })
+
+// let numbers =[1,2,3,4,5];
+// let numberMulti = numbers.map((value,index) => {
+//     return value* 2;
+// })
+// console.log (numberMulti);
+
+
+
+
+
+// let name = [ "anup", "anjuli", "krishna","rabi"]
+// console.log (name);
+// let upperCaseName = name.map ((value,index) => {
+//     return value.toUpperCase();
+// })
+// console.log (upperCaseName);
+
+
+// let ageArray = [15,20,30,40];
+// let aboveTwenty = ageArray.filter((value,index) => {
+//     return value > 20;
+// });
+// console.log (aboveTwenty);
+
+// let arr = [1,2,3,4,5];
+// for (let i= 0; i<arr.length; i++){
+//     console.log(arr[i]);
+    
+// }
+
+// let countryArray = ["nepal","Indai", "China", "Japan"];
+// for (let country of countryArray) {
+//     console.log (country);
+// }
+
+let objectExmaple = {
+    name: "anup",
+    age: 22,
+    address: "kathmandu",
+}
+
+ console.log (Object.keys(objectExmaple));
+for (let obj of objectExmaple) {
+   console.log (obj);
+  }
+
